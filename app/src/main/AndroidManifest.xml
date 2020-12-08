@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bmi_calculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SunDietOW" android:parentActivityName=".OverWeight"></activity>
+        <activity android:name=".SatDietOW" android:parentActivityName=".OverWeight" />
+        <activity android:name=".FriDietOW" android:parentActivityName=".OverWeight" />
+        <activity android:name=".ThuDietOW" android:parentActivityName=".OverWeight" />
+        <activity android:name=".WedDietOW" android:parentActivityName=".OverWeight" />
+        <activity android:name=".TueDietOW" android:parentActivityName=".OverWeight" />
+        <activity android:name=".MonDietOW" android:parentActivityName=".OverWeight" />
+        <activity
+            android:name=".SunDietUW"
+            android:parentActivityName=".UnderWeight" />
+        <activity
+            android:name=".SatDietUW"
+            android:parentActivityName=".UnderWeight" />
+        <activity
+            android:name=".FriDietUW"
+            android:parentActivityName=".UnderWeight" />
+        <activity
+            android:name=".ThuDietUW"
+            android:parentActivityName=".UnderWeight" />
+        <activity
+            android:name=".WedDietUW"
+            android:parentActivityName=".UnderWeight" />
+        <activity
+            android:name=".MonDietUW"
+            android:parentActivityName=".UnderWeight" />
+        <activity
+            android:name=".TueDietUW"
+            android:parentActivityName=".UnderWeight" />
+        <activity
+            android:name=".OverWeight"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UnderWeight"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
